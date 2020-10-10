@@ -9,7 +9,7 @@ class TabBarController: UITabBarController {
        
         //let chatVC = ConversationsViewController()
         viewControllers = [
-            createTabBarItem(tabBarTitle: "Hymns", tabBarImage: "", viewController: ViewController()),
+            createTabBarItem(tabBarTitle: "Hymns", tabBarImage: "", viewController: PageViewController()),
             createTabBarItem(tabBarTitle: "Search", tabBarImage: "", viewController: SearchForHymnViewController()),
             createTabBarItem(tabBarTitle: "Lyrics", tabBarImage: "", viewController: LyricsOnlyViewController()),
             createTabBarItem(tabBarTitle: "Bookmarks", tabBarImage: "", viewController: BookmarksViewController())
