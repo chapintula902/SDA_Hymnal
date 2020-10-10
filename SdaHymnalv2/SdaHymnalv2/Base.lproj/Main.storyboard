@@ -29,7 +29,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="r5J-o9-s7w" customClass="PageViewController" customModule="PageControl" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kxC-T9-R4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="484" y="-364"/>
+            <point key="canvasLocation" x="906" y="-364"/>
         </scene>
     </scenes>
     <resources>

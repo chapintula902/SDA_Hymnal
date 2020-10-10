@@ -47,6 +47,7 @@ class TestImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         view.backgroundColor = .white
         print("image added")
         view.addSubview(scrollView)

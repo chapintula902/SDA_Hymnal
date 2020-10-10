@@ -11,7 +11,7 @@ class BookmarksViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationController?.title = "Bookmarks"
         // Do any additional setup after loading the view.
     }
     

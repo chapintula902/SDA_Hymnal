@@ -5,13 +5,6 @@
 //  Created by Bryan Guerra on 10/10/20.
 //
 
-//
-//  PageViewController.swift
-//  PageControl
-//
-//  Created by Andrew Seeley on 2/2/17.
-//  Copyright © 2017 Seemu. All rights reserved.
-//
 let hymns: [UIImage] = [
     UIImage(named: "A_Child_of_the_King.png")!,
     UIImage(named: "A_Diligent_and_Grateful_Heart.png")!,
@@ -55,7 +48,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         super.viewDidLoad()
         self.dataSource = self
         self.delegate = self
-        
+        navigationController?.title = "Hymns"
         for songs in hymns {
                  let vc = TestImageViewController(with: songs )
     
@@ -95,12 +88,12 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     // MARK: Delegate methords
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         let pageContentViewController = pageViewController.viewControllers![0]
-        self.pageControl.currentPage = myControllers.index(of: pageContentViewController)!
+        self.pageControl.currentPage = myControllers.firstIndex(of: pageContentViewController)!
     }
     
     // MARK: Data source functions.
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = myControllers.index(of: viewController) else {
+        guard let viewControllerIndex = myControllers.firstIndex(of: viewController) else {
             return nil
         }
         
@@ -109,9 +102,9 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         // User is on the first view controller and swiped left to loop to
         // the last view controller.
         guard previousIndex >= 0 else {
-            return myControllers.last
+            //return myControllers.last
             // Uncommment the line below, remove the line above if you don't want the page control to loop.
-            // return nil
+             return nil
         }
         
         guard myControllers.count > previousIndex else {
@@ -122,7 +115,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = myControllers.index(of: viewController) else {
+        guard let viewControllerIndex = myControllers.firstIndex(of: viewController) else {
             return nil
         }
         
@@ -132,9 +125,9 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         // User is on the last view controller and swiped right to loop to
         // the first view controller.
         guard orderedViewControllersCount != nextIndex else {
-            return myControllers.first
+            //return myControllers.first
             // Uncommment the line below, remove the line above if you don't want the page control to loop.
-            // return nil
+             return nil
         }
         
         guard orderedViewControllersCount > nextIndex else {
