@@ -111,8 +111,7 @@
 				898AE01E2531535C00DE0CCB /* AppDelegate.swift */,
 				898AE0202531535C00DE0CCB /* SceneDelegate.swift */,
 				898AE0222531535C00DE0CCB /* ViewController.swift */,
-				898AE0392531548E00DE0CCB /* BookmarksViewController.swift */,
-				898AE03A2531548E00DE0CCB /* LyricsOnlyViewController.swift */,
+				898AE06B2531553600DE0CCB /* TabBarVC */,
 				898AE0382531548E00DE0CCB /* SearchForHymnViewController.swift */,
 				898AE0362531548E00DE0CCB /* TabBarController.swift */,
 				898AE0372531548E00DE0CCB /* TestImageViewController.swift */,
@@ -151,6 +150,15 @@
 				898AE053253154BD00DE0CCB /* All_Things_Come_of_Thee.png */,
 			);
 			path = SongSheets;
+			sourceTree = "<group>";
+		};
+		898AE06B2531553600DE0CCB /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				898AE0392531548E00DE0CCB /* BookmarksViewController.swift */,
+				898AE03A2531548E00DE0CCB /* LyricsOnlyViewController.swift */,
+			);
+			path = TabBarVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

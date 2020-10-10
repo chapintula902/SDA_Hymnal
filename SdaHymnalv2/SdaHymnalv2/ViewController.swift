@@ -30,8 +30,6 @@ let hymns: [UIImage] = [
     UIImage(named: "All_Things_Come_of_Thee.png")!,
     UIImage(named: "All_Things_Come_of_Thee.png")!,
     UIImage(named: "All_Things_Bright_and_Beautiful.png")!,
-
-  
     
  ]
 
@@ -56,8 +54,6 @@ class ViewController: UIViewController, UIPageViewControllerDataSource, UIPageVi
         super.viewDidLoad()
         
         view.addSubview(imageView)
-        
-   
         
         for songs in hymns {
             let vc = TestImageViewController(with: songs )
