@@ -14,6 +14,31 @@
 		898AE0292531535C00DE0CCB /* SdaHymnalv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 898AE0272531535C00DE0CCB /* SdaHymnalv2.xcdatamodeld */; };
 		898AE02B2531535D00DE0CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898AE02A2531535D00DE0CCB /* Assets.xcassets */; };
 		898AE02E2531535D00DE0CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898AE02C2531535D00DE0CCB /* LaunchScreen.storyboard */; };
+		898AE03B2531548E00DE0CCB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AE0362531548E00DE0CCB /* TabBarController.swift */; };
+		898AE03C2531548E00DE0CCB /* TestImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AE0372531548E00DE0CCB /* TestImageViewController.swift */; };
+		898AE03D2531548E00DE0CCB /* SearchForHymnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AE0382531548E00DE0CCB /* SearchForHymnViewController.swift */; };
+		898AE03E2531548E00DE0CCB /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AE0392531548E00DE0CCB /* BookmarksViewController.swift */; };
+		898AE03F2531548E00DE0CCB /* LyricsOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AE03A2531548E00DE0CCB /* LyricsOnlyViewController.swift */; };
+		898AE056253154BD00DE0CCB /* All_Praise_to_Thee.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE042253154BC00DE0CCB /* All_Praise_to_Thee.png */; };
+		898AE057253154BD00DE0CCB /* A_Shelter_in_the_Time_of_Storm.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE043253154BC00DE0CCB /* A_Shelter_in_the_Time_of_Storm.png */; };
+		898AE058253154BD00DE0CCB /* A_Quiet_Place.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE044253154BC00DE0CCB /* A_Quiet_Place.png */; };
+		898AE059253154BD00DE0CCB /* A_Mighty_Fortress.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE045253154BC00DE0CCB /* A_Mighty_Fortress.png */; };
+		898AE05A253154BD00DE0CCB /* A_Song_of_Heaven_and_Homeland.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE046253154BC00DE0CCB /* A_Song_of_Heaven_and_Homeland.png */; };
+		898AE05B253154BD00DE0CCB /* Abide_With_Me,_'Tis_Eventide.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE047253154BC00DE0CCB /* Abide_With_Me,_'Tis_Eventide.png */; };
+		898AE05C253154BD00DE0CCB /* All_My_Hope_on_God_Is_Founded.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE048253154BC00DE0CCB /* All_My_Hope_on_God_Is_Founded.png */; };
+		898AE05D253154BD00DE0CCB /* All_Things_Bright_and_Beautiful.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE049253154BC00DE0CCB /* All_Things_Bright_and_Beautiful.png */; };
+		898AE05E253154BD00DE0CCB /* All_That_Thrills_My_Soul.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE04A253154BC00DE0CCB /* All_That_Thrills_My_Soul.png */; };
+		898AE05F253154BD00DE0CCB /* A_Diligent_and_Grateful_Heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE04B253154BC00DE0CCB /* A_Diligent_and_Grateful_Heart.png */; };
+		898AE060253154BD00DE0CCB /* A_Hymn_of_Glory_Let_Us_Sing.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE04C253154BC00DE0CCB /* A_Hymn_of_Glory_Let_Us_Sing.png */; };
+		898AE061253154BD00DE0CCB /* All_the_Way.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE04D253154BD00DE0CCB /* All_the_Way.png */; };
+		898AE062253154BD00DE0CCB /* All_People_That_on_Earth_Do_Dwell.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE04E253154BD00DE0CCB /* All_People_That_on_Earth_Do_Dwell.png */; };
+		898AE063253154BD00DE0CCB /* All_Hail_the_Power_of_Jesus'_Name.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE04F253154BD00DE0CCB /* All_Hail_the_Power_of_Jesus'_Name.png */; };
+		898AE064253154BD00DE0CCB /* All_Creatures_of_Our_God_and_King.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE050253154BD00DE0CCB /* All_Creatures_of_Our_God_and_King.png */; };
+		898AE065253154BD00DE0CCB /* A_Child_of_the_King.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE051253154BD00DE0CCB /* A_Child_of_the_King.png */; };
+		898AE066253154BD00DE0CCB /* All_Glory,_Laud,_and_Honor.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE052253154BD00DE0CCB /* All_Glory,_Laud,_and_Honor.png */; };
+		898AE067253154BD00DE0CCB /* All_Things_Come_of_Thee.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE053253154BD00DE0CCB /* All_Things_Come_of_Thee.png */; };
+		898AE068253154BD00DE0CCB /* All_Things_Are_Thine.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE054253154BD00DE0CCB /* All_Things_Are_Thine.png */; };
+		898AE069253154BD00DE0CCB /* Abide_With_Me.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE055253154BD00DE0CCB /* Abide_With_Me.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +51,31 @@
 		898AE02A2531535D00DE0CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		898AE02D2531535D00DE0CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		898AE02F2531535D00DE0CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898AE0362531548E00DE0CCB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		898AE0372531548E00DE0CCB /* TestImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestImageViewController.swift; sourceTree = "<group>"; };
+		898AE0382531548E00DE0CCB /* SearchForHymnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForHymnViewController.swift; sourceTree = "<group>"; };
+		898AE0392531548E00DE0CCB /* BookmarksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		898AE03A2531548E00DE0CCB /* LyricsOnlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricsOnlyViewController.swift; sourceTree = "<group>"; };
+		898AE042253154BC00DE0CCB /* All_Praise_to_Thee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_Praise_to_Thee.png; sourceTree = "<group>"; };
+		898AE043253154BC00DE0CCB /* A_Shelter_in_the_Time_of_Storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Shelter_in_the_Time_of_Storm.png; sourceTree = "<group>"; };
+		898AE044253154BC00DE0CCB /* A_Quiet_Place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Quiet_Place.png; sourceTree = "<group>"; };
+		898AE045253154BC00DE0CCB /* A_Mighty_Fortress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Mighty_Fortress.png; sourceTree = "<group>"; };
+		898AE046253154BC00DE0CCB /* A_Song_of_Heaven_and_Homeland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Song_of_Heaven_and_Homeland.png; sourceTree = "<group>"; };
+		898AE047253154BC00DE0CCB /* Abide_With_Me,_'Tis_Eventide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Abide_With_Me,_'Tis_Eventide.png"; sourceTree = "<group>"; };
+		898AE048253154BC00DE0CCB /* All_My_Hope_on_God_Is_Founded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_My_Hope_on_God_Is_Founded.png; sourceTree = "<group>"; };
+		898AE049253154BC00DE0CCB /* All_Things_Bright_and_Beautiful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_Things_Bright_and_Beautiful.png; sourceTree = "<group>"; };
+		898AE04A253154BC00DE0CCB /* All_That_Thrills_My_Soul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_That_Thrills_My_Soul.png; sourceTree = "<group>"; };
+		898AE04B253154BC00DE0CCB /* A_Diligent_and_Grateful_Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Diligent_and_Grateful_Heart.png; sourceTree = "<group>"; };
+		898AE04C253154BC00DE0CCB /* A_Hymn_of_Glory_Let_Us_Sing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Hymn_of_Glory_Let_Us_Sing.png; sourceTree = "<group>"; };
+		898AE04D253154BD00DE0CCB /* All_the_Way.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_the_Way.png; sourceTree = "<group>"; };
+		898AE04E253154BD00DE0CCB /* All_People_That_on_Earth_Do_Dwell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_People_That_on_Earth_Do_Dwell.png; sourceTree = "<group>"; };
+		898AE04F253154BD00DE0CCB /* All_Hail_the_Power_of_Jesus'_Name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "All_Hail_the_Power_of_Jesus'_Name.png"; sourceTree = "<group>"; };
+		898AE050253154BD00DE0CCB /* All_Creatures_of_Our_God_and_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_Creatures_of_Our_God_and_King.png; sourceTree = "<group>"; };
+		898AE051253154BD00DE0CCB /* A_Child_of_the_King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Child_of_the_King.png; sourceTree = "<group>"; };
+		898AE052253154BD00DE0CCB /* All_Glory,_Laud,_and_Honor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "All_Glory,_Laud,_and_Honor.png"; sourceTree = "<group>"; };
+		898AE053253154BD00DE0CCB /* All_Things_Come_of_Thee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_Things_Come_of_Thee.png; sourceTree = "<group>"; };
+		898AE054253154BD00DE0CCB /* All_Things_Are_Thine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = All_Things_Are_Thine.png; sourceTree = "<group>"; };
+		898AE055253154BD00DE0CCB /* Abide_With_Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abide_With_Me.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +111,12 @@
 				898AE01E2531535C00DE0CCB /* AppDelegate.swift */,
 				898AE0202531535C00DE0CCB /* SceneDelegate.swift */,
 				898AE0222531535C00DE0CCB /* ViewController.swift */,
+				898AE0392531548E00DE0CCB /* BookmarksViewController.swift */,
+				898AE03A2531548E00DE0CCB /* LyricsOnlyViewController.swift */,
+				898AE0382531548E00DE0CCB /* SearchForHymnViewController.swift */,
+				898AE0362531548E00DE0CCB /* TabBarController.swift */,
+				898AE0372531548E00DE0CCB /* TestImageViewController.swift */,
+				898AE041253154A600DE0CCB /* SongSheets */,
 				898AE0242531535C00DE0CCB /* Main.storyboard */,
 				898AE02A2531535D00DE0CCB /* Assets.xcassets */,
 				898AE02C2531535D00DE0CCB /* LaunchScreen.storyboard */,
@@ -68,6 +124,33 @@
 				898AE0272531535C00DE0CCB /* SdaHymnalv2.xcdatamodeld */,
 			);
 			path = SdaHymnalv2;
+			sourceTree = "<group>";
+		};
+		898AE041253154A600DE0CCB /* SongSheets */ = {
+			isa = PBXGroup;
+			children = (
+				898AE051253154BD00DE0CCB /* A_Child_of_the_King.png */,
+				898AE04B253154BC00DE0CCB /* A_Diligent_and_Grateful_Heart.png */,
+				898AE04C253154BC00DE0CCB /* A_Hymn_of_Glory_Let_Us_Sing.png */,
+				898AE045253154BC00DE0CCB /* A_Mighty_Fortress.png */,
+				898AE044253154BC00DE0CCB /* A_Quiet_Place.png */,
+				898AE043253154BC00DE0CCB /* A_Shelter_in_the_Time_of_Storm.png */,
+				898AE046253154BC00DE0CCB /* A_Song_of_Heaven_and_Homeland.png */,
+				898AE047253154BC00DE0CCB /* Abide_With_Me,_'Tis_Eventide.png */,
+				898AE055253154BD00DE0CCB /* Abide_With_Me.png */,
+				898AE050253154BD00DE0CCB /* All_Creatures_of_Our_God_and_King.png */,
+				898AE052253154BD00DE0CCB /* All_Glory,_Laud,_and_Honor.png */,
+				898AE04F253154BD00DE0CCB /* All_Hail_the_Power_of_Jesus'_Name.png */,
+				898AE048253154BC00DE0CCB /* All_My_Hope_on_God_Is_Founded.png */,
+				898AE04E253154BD00DE0CCB /* All_People_That_on_Earth_Do_Dwell.png */,
+				898AE042253154BC00DE0CCB /* All_Praise_to_Thee.png */,
+				898AE04A253154BC00DE0CCB /* All_That_Thrills_My_Soul.png */,
+				898AE04D253154BD00DE0CCB /* All_the_Way.png */,
+				898AE054253154BD00DE0CCB /* All_Things_Are_Thine.png */,
+				898AE049253154BC00DE0CCB /* All_Things_Bright_and_Beautiful.png */,
+				898AE053253154BD00DE0CCB /* All_Things_Come_of_Thee.png */,
+			);
+			path = SongSheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +210,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898AE056253154BD00DE0CCB /* All_Praise_to_Thee.png in Resources */,
+				898AE069253154BD00DE0CCB /* Abide_With_Me.png in Resources */,
 				898AE02E2531535D00DE0CCB /* LaunchScreen.storyboard in Resources */,
+				898AE05A253154BD00DE0CCB /* A_Song_of_Heaven_and_Homeland.png in Resources */,
+				898AE061253154BD00DE0CCB /* All_the_Way.png in Resources */,
+				898AE05C253154BD00DE0CCB /* All_My_Hope_on_God_Is_Founded.png in Resources */,
+				898AE05E253154BD00DE0CCB /* All_That_Thrills_My_Soul.png in Resources */,
+				898AE064253154BD00DE0CCB /* All_Creatures_of_Our_God_and_King.png in Resources */,
+				898AE060253154BD00DE0CCB /* A_Hymn_of_Glory_Let_Us_Sing.png in Resources */,
+				898AE05F253154BD00DE0CCB /* A_Diligent_and_Grateful_Heart.png in Resources */,
+				898AE067253154BD00DE0CCB /* All_Things_Come_of_Thee.png in Resources */,
+				898AE059253154BD00DE0CCB /* A_Mighty_Fortress.png in Resources */,
+				898AE066253154BD00DE0CCB /* All_Glory,_Laud,_and_Honor.png in Resources */,
+				898AE068253154BD00DE0CCB /* All_Things_Are_Thine.png in Resources */,
 				898AE02B2531535D00DE0CCB /* Assets.xcassets in Resources */,
 				898AE0262531535C00DE0CCB /* Main.storyboard in Resources */,
+				898AE05B253154BD00DE0CCB /* Abide_With_Me,_'Tis_Eventide.png in Resources */,
+				898AE058253154BD00DE0CCB /* A_Quiet_Place.png in Resources */,
+				898AE062253154BD00DE0CCB /* All_People_That_on_Earth_Do_Dwell.png in Resources */,
+				898AE05D253154BD00DE0CCB /* All_Things_Bright_and_Beautiful.png in Resources */,
+				898AE057253154BD00DE0CCB /* A_Shelter_in_the_Time_of_Storm.png in Resources */,
+				898AE065253154BD00DE0CCB /* A_Child_of_the_King.png in Resources */,
+				898AE063253154BD00DE0CCB /* All_Hail_the_Power_of_Jesus'_Name.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898AE03E2531548E00DE0CCB /* BookmarksViewController.swift in Sources */,
+				898AE03C2531548E00DE0CCB /* TestImageViewController.swift in Sources */,
+				898AE03F2531548E00DE0CCB /* LyricsOnlyViewController.swift in Sources */,
+				898AE03D2531548E00DE0CCB /* SearchForHymnViewController.swift in Sources */,
 				898AE0232531535C00DE0CCB /* ViewController.swift in Sources */,
 				898AE0292531535C00DE0CCB /* SdaHymnalv2.xcdatamodeld in Sources */,
 				898AE01F2531535C00DE0CCB /* AppDelegate.swift in Sources */,
+				898AE03B2531548E00DE0CCB /* TabBarController.swift in Sources */,
 				898AE0212531535C00DE0CCB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
